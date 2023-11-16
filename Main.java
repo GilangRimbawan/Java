@@ -1,4 +1,3 @@
-// File: Main.java
 public class Main {
     public static void main(String[] args) {
         // Membuat objek dari class SepatuLari
@@ -13,5 +12,17 @@ public class Main {
         // Membuat objek dari class SepatuFormal
         SepatuFormal sepatuFormal = new SepatuFormal("Adidas", 40, "Hitam");
         sepatuFormal.deskripsi(); // Memanggil method overriding
+
+        System.out.println();
+
+        // Membuat objek dari class SepatuSantai
+        SepatuSantai sepatuSantai = new SepatuSantai("Converse", 38, "Sneakers");
+        sepatuSantai.deskripsi(); // Memanggil method overriding
+
+        System.out.println();
+
+        // Membuat objek dari class SepatuBoot
+        SepatuBoot sepatuBoot = new SepatuBoot("Caterpillar", 44, "Leather");
+        sepatuBoot.deskripsi(); // Memanggil method overriding
     }
 }
